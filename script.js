@@ -31,8 +31,7 @@ function generate(newPassword, hasLower, hasUpper, hasCharacters, hasNumber) {
   const numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
   generatedPassword = '';
-  //var combinedArray = [];
-  //combinedArray = [...numbers, ...specials, ...upperCase, ...lowerCase];
+  
   selectedCharacterSets = [];
   if (hasLower) {
     selectedCharacterSets.push(lowerCase);
@@ -64,35 +63,3 @@ function getRandomCharacter(arr) {
 
   return arr[Math.floor(Math.random() * arr.length)];
 }
-
-
-
-
- // if (hasLower && !lowerCase.map(letter => {
-      //   generatedPassword.includes(letter);
-      // })) {
-
-      //   generate();
-
-      // } else if (hasUpper && !upperCase.map(letter => {
-      //   generatedPassword.includes(letter);
-      // })) {
-
-      //   generate();
-
-      // } else if (hasCharacters && !specials.map(letter => {
-      //   generatedPassword.includes(letter);
-      // })) {
-
-      //   generate()
-
-      // } else if (hasNumber && !numbers.map(letter => {
-      //   generatedPassword.includes(letter);
-      // })) {
-
-      //   generate();
-
-      // }
-      // else {
-      //   return generatedPassword;
-      // }
