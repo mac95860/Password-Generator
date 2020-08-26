@@ -1,11 +1,27 @@
 # Password-Generator
 
-Project consists of several functions that randomly select characters from an array via the Math.random() function after the user has 
-answered a number of prompts:
+## About
 
-If the user input does not follow the guidelines given in the prompt, the user is then asked to re-enter
-their response.
+This is a simple password generator that returns a randomly generated password based on the criteria given by the user.
 
-Otherwise, the input given is run through a for loop which contains the Math functions in a variable called "pOutput".
+### Features
 
-That value is then placed into a string called "generatedPassword". The site then outputs the random string in the Password box.
+- Users can select a password length of 8 - 126 characters
+- Users are prompted to confirm that the password will contain:
+    1. Uppercase Letters
+    2. Lowercase Letters
+    3. Numbers
+    4. Special Characters
+
+### Technologies Used
+
+    * Javascript
+    * HTML
+    * CSS
+
+### Contributors
+
+Michael Cervantes 
+
+
+![Password Generator](/Password-Gen.JPG)
